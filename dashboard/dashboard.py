@@ -29,8 +29,8 @@ def create_sum_rent_hour(df):
     return sum_rent_hour
 
 #load data
-day = pd.read_csv("../data/day.csv")
-hour = pd.read_csv("../data/hour.csv")
+day = pd.read_csv("https://github.com/rizkifitria/Bike-Sharing/blob/main/data/day.csv")
+hour = pd.read_csv("https://github.com/rizkifitria/Bike-Sharing/blob/main/data/hour.csv")
 
 #Kolom dteday akan menjadi kunci dalam pembuatan filter. Untuk ini, kita perlu mengurutkan DataFrame berdasarkan dteday serta memastikan kedua kolom tersebut bertipe datetime
 datetime_columns = ["dteday"]
