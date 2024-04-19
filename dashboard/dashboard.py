@@ -49,7 +49,7 @@ max_date = hour["dteday"].max()
  
 with st.sidebar:
     # Menambahkan logo perusahaan
-    st.image("logo.png")
+    st.image("https://raw.githubusercontent.com/rizkifitria/Bike-Sharing/main/dashboard/logo.png")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
